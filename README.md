@@ -8,24 +8,24 @@ Vote splitting can be effectively prevented by changing the voting method. There
 
 The CSV file used is a questionnaire collected. The voting methods for this project are:
 
-### Plurality voting
+### *Plurality voting
 Under this method, the candidate who secures the highest number of votes emerges as the winner. To apply this method to our dataset, we simply need to tally the top-ranked superhero for each survey entry (the one ranked at position 1) and then sum up these counts across all survey entries. The superhero with the most top ranks will be declared the winner.
 
-### Borda voting
+### *Borda voting
 This technique, formulated by 18th-century mathematician Jean-Charles de Borda, remains in use today to determine the MLB Most Valuable Player. In this approach, voters assign numerical rankings to each candidate, and the winner is determined by summing up the points allocated to each candidate based on their ranking. To apply this method to our dataset, we need to assign points to each candidate in inverse proportion to their ranking, relative to the total number of options. This implies that a ranking of 1 corresponds to 12 points, while a ranking of 2 corresponds to 11 points, and so on. Candidates without a ranking receive zero points. The superhero with the highest total points is declared the winner.
 
-### Condorcet voting
+### *Condorcet voting
 The Marquis of Condorcet, Marie Jean Antoine Nicolas de Caritat, developed this approach in the 18th century. Condorcet, a French philosopher and mathematician, was a rival of Borda. Nowadays, the Wikimedia foundation and the Linux community utilize Condorcet voting for most internal elections. In Condorcet voting, the winner is determined by identifying the candidate who would defeat every other candidate in a hypothetical head-to-head match.
 
 To apply this method to our data, we need to use the rankings provided in the survey to determine the winner by comparing every possible pair of superheroes. For instance, when comparing Batman and Superman, we tally the number of people who ranked Batman higher (with a lower number) than Superman and the number who ranked Superman higher than Batman. If Batman is preferred by more people, then he emerges as the winner in that pairing. This procedure is repeated for all possible pairings. If one superhero triumphs over every other one in these pairings, they become the Condorcet winner. In cases where no clear winner emerges, the Condorcet method results in a draw.
 
-### Instant-runoff (IRV) voting
+### *Instant-runoff (IRV) voting
 
 This approach was developed by William Robert Ware, a Boston architect, towards the end of the 19th century. It draws its roots from proportional representation methods historically used in the English parliament. In its current form, known as ranked-choice voting in the US, it is utilized at various levels of government in the UK, Canada, and Australia. Maine, a US state, adopted this method for its general elections in 2016, while the Bay Area uses it for local elections, such as mayoral contests.
 
 In IRV voting, multiple rounds of vote counting take place, involving only the top-ranked candidates. If no candidate receives a majority of the top ranks, the candidate with the fewest top ranks is eliminated, and their votes are redistributed to the second-choice candidates indicated by the voters. After this redistribution, the top-ranked totals are recalculated. This process continues until a candidate secures more than 50% of the top rank votes, making them the winner. To apply this method to our data, we must count every ranking submitted and conduct multiple rounds of elimination until a candidate obtains more than 50% of the top rank votes.
 
-### Approval voting
+### *Approval voting
 
 This approach was formulated by Robert J. Weber, a mathematician at Cornell University, during the 1970s. Although relatively uncommon outside of professional organizations, the United Nations utilizes it to elect its Secretary-General. In approval voting, voters express their support for multiple candidates by providing binary votes (approve or disapprove). The winner is the candidate who receives the most positive votes.
 
