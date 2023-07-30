@@ -37,3 +37,11 @@ To apply this method to our data, we must calculate the average ranking for each
 3. Run an implementation of the chosen voting system and select a winner or declare a draw
 4. Inform the user of the results, including total votes and winner
 
+## Conclusion 
+This data science project highlights the significance of exploring various voting methods and their computational aspects. The project's importance lies in the fact that different voting methods can lead to different winners in an election. By examining and implementing alternative voting systems, we gain valuable insights into the potential impact on election outcomes and the fairness of the democratic process.
+
+The prevalent one person, one vote principle, represented by plurality voting, is commonly used in elections. However, as demonstrated in the project, this method can give rise to vote splitting, which distorts the true preferences of the electorate and may result in an undesired winner. Understanding this phenomenon is crucial as it sheds light on the limitations of conventional voting systems and underscores the need for exploring alternative approaches.
+
+Ranked ballots, as studied in the project, offer a promising solution to mitigate vote splitting. Allowing voters to express preferences through rankings provides a more nuanced representation of their choices, which can lead to more accurate election results. The computational analysis of these ranked voting systems offers data-driven insights into their implications and potential benefits for achieving more equitable outcomes.
+
+By employing real-world data in the form of a questionnaire-based CSV file, this project enhances its relevance to practical applications in election scenarios. The findings and comparisons of different voting methods emphasize the impact of computational techniques on decision-making processes in democratic societies. This project showcases the ability to use data-driven approaches to address real-world challenges in the realm of election fairness and encourages further investigation into novel voting systems that may lead to more representative and equitable democratic outcomes.
