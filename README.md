@@ -38,7 +38,7 @@ To apply this method to our data, we must calculate the average ranking for each
 4. Inform the user of the results, including total votes and winner
 
 ## Conclusion 
-This data science project highlights the significance of exploring various voting methods and their computational aspects. The project's importance lies in the fact that different voting methods can lead to different winners in an election. By examining and implementing alternative voting systems, we gain valuable insights into the potential impact on election outcomes and the fairness of the democratic process.
+This project highlights the significance of exploring various voting methods and their computational aspects. The project's importance lies in the fact that different voting methods can lead to different winners in an election. By examining and implementing alternative voting systems, we gain valuable insights into the potential impact on election outcomes and the fairness of the democratic process.
 
 The prevalent one person, one vote principle, represented by plurality voting, is commonly used in elections. However, as demonstrated in the project, this method can give rise to vote splitting, which distorts the true preferences of the electorate and may result in an undesired winner. Understanding this phenomenon is crucial as it sheds light on the limitations of conventional voting systems and underscores the need for exploring alternative approaches.
 
