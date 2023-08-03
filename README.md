@@ -37,6 +37,8 @@ To apply this method to our data, we must calculate the average ranking for each
 3. Run an implementation of the chosen voting system and select a winner or declare a draw
 4. Inform the user of the results, including total votes and winner
 
+![Questionnare in csv](/assets/img/Questionnare.png)
+
 ## Conclusion 
 This project highlights the significance of exploring various voting methods and their computational aspects. The project's importance lies in the fact that different voting methods can lead to different winners in an election. By examining and implementing alternative voting systems, we gain valuable insights into the potential impact on election outcomes and the fairness of the democratic process.
 
