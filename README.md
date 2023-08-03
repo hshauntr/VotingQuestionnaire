@@ -6,6 +6,8 @@ In the US, the most familiar form of vote splitting is the spoiler effect, in wh
 
 Vote splitting can be effectively prevented by changing the voting method. There are multiple approaches to this end, each with its own pros and cons. Many of them rely on the use of ranked ballots. In this kind of ballot, a voter does not have to mark their one preferred candidate, but instead can define a ranking of several candidates from most to least preferred. Once voting is conducted in this way, there are different computational approaches to determine which candidate wins. For an in-depth discussion of vote splitting and the different methods to address it, you can review the book "Gaming the vote: why elections aren't fair (and what we can do about it)" by William Poundstone.
 
+![Questionnare in csv](/assets/img/Questionnare.png)
+
 The CSV file used is a questionnaire collected. The voting methods for this project are:
 
 ### 1. Plurality voting
@@ -36,8 +38,6 @@ To apply this method to our data, we must calculate the average ranking for each
 2. Ask the user which of the five methods described below they want to use to select a winner (the user input can be a number, a letter, a word, etc.)
 3. Run an implementation of the chosen voting system and select a winner or declare a draw
 4. Inform the user of the results, including total votes and winner
-
-![Questionnare in csv](/assets/img/Questionnare.png)
 
 ## Conclusion 
 This project highlights the significance of exploring various voting methods and their computational aspects. The project's importance lies in the fact that different voting methods can lead to different winners in an election. By examining and implementing alternative voting systems, we gain valuable insights into the potential impact on election outcomes and the fairness of the democratic process.
